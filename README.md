@@ -6,3 +6,4 @@ Prediction based on the prefix of all possible next words and their probability.
 Generating a text of a given length from the random word of the source text\ a given word, with this generation, the next word is selected randomly from all that will go after this prefix.
 There is also a generation, where the word with the highest probability is chosen next.
 There are also two trained models, one based on ATL texts and the other on Dostoevsky's "crime and punishment".
+The probabilistic_generation function does not perform well on large texts, since it loops with stable phrases such as it would be and so on.
